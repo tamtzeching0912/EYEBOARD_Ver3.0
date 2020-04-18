@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="33.3%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="80dp">
+
+    <Row android:keyboardMode="@integer/keyboard_quart_0">
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="2000" android:keyLabel="QRSTUVWXYZ" />
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_0">
+        <Key android:codes="1000" android:keyLabel="ABCDEFUGIJKLMNOP" android:keyEdgeFlags="left" />
+        <Key android:codes="5000" android:keyLabel="[ACTIONS]" />
+        <Key android:codes="3000" android:keyLabel="0123456789+-/*%=" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_0">
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="4000" android:keyLabel=".,?!'()@_#[SPACE]" />
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+    <!-- quart 1 -->
+    <Row android:keyboardMode="@integer/keyboard_quart_1">
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="11000" android:keyLabel="ABCD" />
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_1">
+        <Key android:codes="12000" android:keyLabel="EFGH" android:keyEdgeFlags="left" />
+        <Key android:codes="0000" android:keyLabel="" />
+        <Key android:codes="13000" android:keyLabel="IJKL" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_1">
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="14000" android:keyLabel="MNOP" />
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row android:keyboardMode="@integer/keyboard_quart_1_1">
+        <Key android:codes="1000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="97" android:keyLabel="A" />
+        <Key android:codes="1000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_1_1">
+        <Key android:codes="98" android:keyLabel="B" android:keyEdgeFlags="left" />
+        <Key android:codes="1000" android:keyLabel="" />
+        <Key android:codes="99" android:keyLabel="C" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_1_1">
+        <Key android:codes="1000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="100" android:keyLabel="D" />
+        <Key android:codes="1000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row android:keyboardMode="@integer/keyboard_quart_1_2">
+        <Key android:codes="1000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="101" android:keyLabel="E" />
+        <Key android:codes="1000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_1_2">
+        <Key android:codes="102" android:keyLabel="F" android:keyEdgeFlags="left" />
+        <Key android:codes="1000" android:keyLabel="" />
+        <Key android:codes="103" android:keyLabel="G" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_1_2">
+        <Key android:codes="1000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="104" android:keyLabel="H" />
+        <Key android:codes="1000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row android:keyboardMode="@integer/keyboard_quart_1_3">
+        <Key android:codes="1000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="105" android:keyLabel="I" />
+        <Key android:codes="1000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_1_3">
+        <Key android:codes="106" android:keyLabel="J" android:keyEdgeFlags="left" />
+        <Key android:codes="1000" android:keyLabel="" />
+        <Key android:codes="107" android:keyLabel="K" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_1_3">
+        <Key android:codes="1000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="108" android:keyLabel="L" />
+        <Key android:codes="1000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row android:keyboardMode="@integer/keyboard_quart_1_4">
+        <Key android:codes="1000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="109" android:keyLabel="M" />
+        <Key android:codes="1000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_1_4">
+        <Key android:codes="110" android:keyLabel="N" android:keyEdgeFlags="left" />
+        <Key android:codes="1000" android:keyLabel="" />
+        <Key android:codes="111" android:keyLabel="O" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_1_4">
+        <Key android:codes="1000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="112" android:keyLabel="P" />
+        <Key android:codes="1000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+
+    <!-- quart 2 -->
+    <Row android:keyboardMode="@integer/keyboard_quart_2">
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="21000" android:keyLabel="QRST" />
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_2">
+        <Key android:codes="22000" android:keyLabel="UVWX" android:keyEdgeFlags="left" />
+        <Key android:codes="0000" android:keyLabel="" />
+        <Key android:codes="23000" android:keyLabel="YZ" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_2">
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="0000" android:keyLabel="" />
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row android:keyboardMode="@integer/keyboard_quart_2_1">
+        <Key android:codes="2000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="113"  android:keyLabel="Q" />
+        <Key android:codes="2000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_2_1">
+        <Key android:codes="114" android:keyLabel="R" android:keyEdgeFlags="left" />
+        <Key android:codes="2000" android:keyLabel="" />
+        <Key android:codes="115" android:keyLabel="S" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_2_1">
+        <Key android:codes="2000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="116" android:keyLabel="T" />
+        <Key android:codes="2000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row android:keyboardMode="@integer/keyboard_quart_2_2">
+        <Key android:codes="2000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="117"  android:keyLabel="U" />
+        <Key android:codes="2000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_2_2">
+        <Key android:codes="118" android:keyLabel="V" android:keyEdgeFlags="left" />
+        <Key android:codes="2000" android:keyLabel="" />
+        <Key android:codes="119" android:keyLabel="W" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_2_2">
+        <Key android:codes="2000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="120" android:keyLabel="X" />
+        <Key android:codes="2000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row android:keyboardMode="@integer/keyboard_quart_2_3">
+        <Key android:codes="2000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="2000"  android:keyLabel="" />
+        <Key android:codes="2000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_2_3">
+        <Key android:codes="121"  android:keyLabel="Y" android:keyEdgeFlags="left" />
+        <Key android:codes="2000" android:keyLabel="" />
+        <Key android:codes="122" android:keyLabel="Z" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_2_3">
+        <Key android:codes="2000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="2000" android:keyLabel="" />
+        <Key android:codes="2000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+    <!-- quart 3 -->
+    <Row android:keyboardMode="@integer/keyboard_quart_3">
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="31000" android:keyLabel="0123" />
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_3">
+        <Key android:codes="32000" android:keyLabel="4567" android:keyEdgeFlags="left" />
+        <Key android:codes="0000" android:keyLabel="" />
+        <Key android:codes="33000" android:keyLabel="89+-" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_3">
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="34000" android:keyLabel="/*%=" />
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row android:keyboardMode="@integer/keyboard_quart_3_1">
+        <Key android:codes="3000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="48" android:keyLabel="0" />
+        <Key android:codes="3000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_3_1">
+        <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left" />
+        <Key android:codes="3000" android:keyLabel="" />
+        <Key android:codes="50" android:keyLabel="2" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_3_1">
+        <Key android:codes="3000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="51" android:keyLabel="3" />
+        <Key android:codes="3000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row android:keyboardMode="@integer/keyboard_quart_3_2">
+        <Key android:codes="3000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="52" android:keyLabel="4" />
+        <Key android:codes="3000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_3_2">
+        <Key android:codes="53" android:keyLabel="5" android:keyEdgeFlags="left" />
+        <Key android:codes="3000" android:keyLabel="" />
+        <Key android:codes="54" android:keyLabel="6" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_3_2">
+        <Key android:codes="3000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="55" android:keyLabel="7" />
+        <Key android:codes="3000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row android:keyboardMode="@integer/keyboard_quart_3_3">
+        <Key android:codes="3000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="56" android:keyLabel="8" />
+        <Key android:codes="3000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_3_3">
+        <Key android:codes="57" android:keyLabel="9" android:keyEdgeFlags="left" />
+        <Key android:codes="3000" android:keyLabel="" />
+        <Key android:codes="43" android:keyLabel="+" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_3_3">
+        <Key android:codes="3000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="45" android:keyLabel="-" />
+        <Key android:codes="3000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row android:keyboardMode="@integer/keyboard_quart_3_4">
+        <Key android:codes="3000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="47" android:keyLabel="/" />
+        <Key android:codes="3000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_3_4">
+        <Key android:codes="42" android:keyLabel="*" android:keyEdgeFlags="left" />
+        <Key android:codes="3000" android:keyLabel="" />
+        <Key android:codes="37" android:keyLabel="%" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_3_4">
+        <Key android:codes="3000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="61" android:keyLabel="=" />
+        <Key android:codes="3000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+    <!-- quart 4 -->
+    <Row android:keyboardMode="@integer/keyboard_quart_4">
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="41000" android:keyLabel=".,?!" />
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_4">
+        <Key android:codes="42000" android:keyLabel="&#39;&#34;()" android:keyEdgeFlags="left" />
+        <Key android:codes="0000" android:keyLabel="" />
+        <Key android:codes="43000" android:keyLabel="/&#64;#&#38;" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_4">
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="32" android:keyLabel="[SPACE]" />
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row android:keyboardMode="@integer/keyboard_quart_4_1">
+        <Key android:codes="4000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="46" android:keyLabel="." />
+        <Key android:codes="4000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_4_1">
+        <Key android:codes="44" android:keyLabel="," android:keyEdgeFlags="left" />
+        <Key android:codes="4000" android:keyLabel="" />
+        <Key android:codes="63" android:keyLabel=" &#63;" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_4_1">
+        <Key android:codes="4000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="33" android:keyLabel="!" />
+        <Key android:codes="4000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row android:keyboardMode="@integer/keyboard_quart_4_2">
+        <Key android:codes="4000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="39" android:keyLabel=" &#39;" />
+        <Key android:codes="4000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_4_2">
+        <Key android:codes="34" android:keyLabel=" &#34;" android:keyEdgeFlags="left" />
+        <Key android:codes="4000" android:keyLabel="" />
+        <Key android:codes="40" android:keyLabel="(" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_4_2">
+        <Key android:codes="4000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="41" android:keyLabel=")" />
+        <Key android:codes="4000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row android:keyboardMode="@integer/keyboard_quart_4_3">
+        <Key android:codes="4000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="64" android:keyLabel=" &#64;" />
+        <Key android:codes="4000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_4_3">
+        <Key android:codes="95" android:keyLabel="_" android:keyEdgeFlags="left" />
+        <Key android:codes="4000" android:keyLabel="" />
+        <Key android:codes="35" android:keyLabel=" &#35;" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_4_3">
+        <Key android:codes="4000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="38" android:keyLabel=" &#38;" />
+        <Key android:codes="4000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row android:keyboardMode="@integer/keyboard_quart_4_4">
+        <Key android:codes="4000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="32" android:keyLabel="[SPACE]" />
+        <Key android:codes="4000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_4_4">
+        <Key android:codes="4000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="4000" android:keyLabel="" />
+        <Key android:codes="4000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_4_4">
+        <Key android:codes="4000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="4000" android:keyLabel="" />
+        <Key android:codes="4000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+    <!-- quart 5 -->
+    <Row android:keyboardMode="@integer/keyboard_quart_5">
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="-5" android:keyLabel="[DELETE]" />
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_5">
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="0000" android:keyLabel="" />
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyboardMode="@integer/keyboard_quart_5">
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="-4" android:keyLabel="[ENTER]" />
+        <Key android:codes="0000" android:keyLabel="" android:keyEdgeFlags="right" />
+    </Row>
+
+</Keyboard>

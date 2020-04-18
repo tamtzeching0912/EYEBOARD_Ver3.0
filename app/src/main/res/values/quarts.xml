@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="keyboard_quart_0">0000</integer> <!-- all -->
+
+    <integer name="keyboard_quart_1">1000</integer> <!-- ABCD EFGH IJKL MNOP -->
+    <integer name="keyboard_quart_1_1">11000</integer> <!-- A B C D -->
+    <integer name="keyboard_quart_1_2">12000</integer> <!-- E F G H -->
+    <integer name="keyboard_quart_1_3">13000</integer> <!-- I J K L -->
+    <integer name="keyboard_quart_1_4">14000</integer> <!-- M N O P -->
+
+    <integer name="keyboard_quart_2">2000</integer> <!-- QRST UVWX YZ -->
+    <integer name="keyboard_quart_2_1">21000</integer> <!-- Q R S T -->
+    <integer name="keyboard_quart_2_2">22000</integer> <!-- U V W X -->
+    <integer name="keyboard_quart_2_3">23000</integer> <!-- Y Z -->
+
+    <integer name="keyboard_quart_3">3000</integer> <!-- 0123 4567 89+- /*%= -->
+    <integer name="keyboard_quart_3_1">31000</integer> <!-- 0 1 2 3 -->
+    <integer name="keyboard_quart_3_2">32000</integer> <!-- 4 5 6 7 -->
+    <integer name="keyboard_quart_3_3">33000</integer> <!-- 8 9 + - -->
+    <integer name="keyboard_quart_3_4">34000</integer> <!-- / * % = -->
+
+    <integer name="keyboard_quart_4">4000</integer> <!-- .,?! '"() @_#& [SPACE] -->
+    <integer name="keyboard_quart_4_1">41000</integer> <!-- . , ? ! -->
+    <integer name="keyboard_quart_4_2">42000</integer> <!-- ' " ( )-->
+    <integer name="keyboard_quart_4_3">43000</integer> <!-- @ _ # & -->
+    <integer name="keyboard_quart_4_4">44000</integer> <!-- [SPACE] -->
+
+    <integer name="keyboard_quart_5">5000</integer> <!-- [BACK] [FORWARD] [DEL] [ENTER] -->
+
+</resources>
