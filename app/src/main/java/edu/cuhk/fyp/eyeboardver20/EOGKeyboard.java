@@ -1,17 +1,12 @@
 package edu.cuhk.fyp.eyeboardver20;
 
-import android.app.Activity;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
 import android.media.AudioManager;
-import android.media.MediaPlayer;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.inputmethod.InputConnection;
-
-import java.lang.reflect.Array;
-import java.util.Arrays;
 
 import static android.content.ContentValues.TAG;
 import static java.lang.String.valueOf;
