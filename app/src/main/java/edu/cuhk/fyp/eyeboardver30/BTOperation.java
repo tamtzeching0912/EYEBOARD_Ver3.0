@@ -50,7 +50,15 @@ public class BTOperation {
                     public void onCharacteristicChanged(byte[] data) {
                         Intent intent = new Intent("com.example.broadcast.LOCAL_BROADCAST");
                         intent.putExtra("data",data);
-                        MainActivity.getInstance().updateEOGinput(Character.getNumericValue(data[0]));
+                        int mcu_data = Character.getNumericValue(data[0]);
+                        Log.d(TAG, "onCharacteristicChanged: "+mcu_data);
+                        if(mcu_data < 5)
+                            MainActivity.getInstance().updateEOGinput(mcu_data);
+                        else if (mcu_data == 5)
+                            MainActivity.getInstance().playSound();
+                        else if (mcu_data == 6){
+                            //calibration done
+                        }
                         LocalBroadcastManager.getInstance(context.getApplicationContext()).sendBroadcast(intent);
                     }
                 }

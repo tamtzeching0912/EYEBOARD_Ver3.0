@@ -181,6 +181,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
+    public void playSound(){
+        recording.start();
+    }
+
     private void showConnectedDevice() {
         List<BleDevice> deviceList = BleManager.getInstance().getAllConnectedDevice();
         mDeviceAdapter.clearConnectedDevice();
