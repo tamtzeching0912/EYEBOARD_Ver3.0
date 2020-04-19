@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             new CountDownTimer(2000, 1000) {
                                 public void onTick(long millisUntilFinished) {
                                 }
-
+                                ///start calibration
                                 public void onFinish() {
                                     recording = MediaPlayer.create(MainActivity.this, R.raw.beep);
                                     recording.start();
