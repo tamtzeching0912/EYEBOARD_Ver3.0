@@ -185,6 +185,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         recording.start();
     }
 
+    public void calib_done(){
+        msg_box.setText("Ready to use.");
+        bt_command.setVisibility(View.VISIBLE);
+        bt_disconnect.setVisibility(View.VISIBLE);
+        device_list.setVisibility(View.VISIBLE);
+        Toast.makeText(getApplicationContext(), R.string.done_calib, Toast.LENGTH_LONG).show();
+    }
+
     private void showConnectedDevice() {
         List<BleDevice> deviceList = BleManager.getInstance().getAllConnectedDevice();
         mDeviceAdapter.clearConnectedDevice();
@@ -294,6 +302,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 mDeviceAdapter.removeDevice(bleDevice);
                 mDeviceAdapter.notifyDataSetChanged();
                 if (isActiveDisConnected) {
+                    msg_box.setVisibility(View.VISIBLE);
+                    bt_command.setVisibility(View.VISIBLE);
                     Toast.makeText(MainActivity.this, getString(R.string.active_disconnected), Toast.LENGTH_LONG).show();
                 } else {
                     Toast.makeText(MainActivity.this, getString(R.string.disconnected), Toast.LENGTH_LONG).show();

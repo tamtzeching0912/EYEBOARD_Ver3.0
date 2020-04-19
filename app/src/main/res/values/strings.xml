@@ -44,6 +44,7 @@
     <string name="tap_pair">Tap to pair device</string>
     <string name="tap_calib">Tap to calibrate</string>
     <string name="instr_calib">When you hear the first "Beep", look up; second "Beep", look down; third "Beep", look left; fourth "Beep", look right.</string>
+    <string name="done_calib">Calibration Success! You can control the EYEBOARD with your eyes now.</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

@@ -56,9 +56,8 @@ public class BTOperation {
                             MainActivity.getInstance().updateEOGinput(mcu_data);
                         else if (mcu_data == 5)
                             MainActivity.getInstance().playSound();
-                        else if (mcu_data == 6){
-                            //calibration done
-                        }
+                        else if (mcu_data == 6)
+                            MainActivity.getInstance().calib_done();
                         LocalBroadcastManager.getInstance(context.getApplicationContext()).sendBroadcast(intent);
                     }
                 }
