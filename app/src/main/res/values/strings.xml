@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EYEBOARD Ver2.0</string>
+    <string name="app_name">EYEBOARD Ver3.0</string>
     <string name="pair">Pair Device</string>
     <string name="calib">Calibration</string>
 
@@ -43,4 +43,8 @@
     <string name="tap_scan">Tap to discover EYEBOARD device</string>
     <string name="tap_pair">Tap to pair device</string>
     <string name="tap_calib">Tap to calibrate</string>
+    <string name="instr_calib">When you hear the first "Beep", look up; second "Beep", look down; third "Beep", look left; fourth "Beep", look right.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
